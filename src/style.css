@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  background-color: green;
+  align-items: center;
+}
+
+.nav-left {
+  width: 60%;
+  align-self: center;
+  text-align: center;
+  background-color: aquamarine;
+}
+
+.nav-right {
+  width: 30%;
+  margin-left: auto;
+  background-color: blue;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  color: aliceblue;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
