@@ -43,12 +43,11 @@ img {
 }
 
 .hero {
-  margin-top: 50px;
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 500px;
   background-color: rgb(7, 40, 29);
 }
 
@@ -56,6 +55,35 @@ img {
   width: 50%;
   background-color: rgb(7, 40, 29);
   text-align: center;
+}
+
+.hero-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+  gap: 40px;
+}
+
+.hero-bottom img {
+  width: 80%;
+  height: 60%;
+}
+
+.btn {
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(7, 40, 29);
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(45, 104, 156);
+  border-radius: 8px;
+}
+
+.btn:hover {
+  background-color: rgb(157, 214, 195);
+  color: rgb(7, 40, 29);
+  border: 2px solid rgb(7, 40, 29);
 }
 
 .next-launches {
