@@ -1,27 +1,43 @@
+/* Variables */
+:root {
+  --main-bg-color: blueviolet;
+  --nav-bg-color: green;
+  --nav-left-bg-color: aquamarine;
+  --nav-right-bg-color: blue;
+  --text-color: aliceblue;
+  --hero-bg-color: rgb(7, 40, 29);
+  --btn-bg-color: rgb(7, 40, 29);
+  --btn-border-color: rgb(45, 104, 156);
+  --next-launches-bg-color: rgb(157, 214, 195);
+  --card-border-color: rgb(7, 40, 29);
+}
+
+/* Body */
 body {
   width: 80%;
   margin: 0 auto;
-  background-color: blueviolet;
+  background-color: var(--main-bg-color);
 }
 
+/* Navigation */
 nav {
   display: flex;
   width: 100%;
-  background-color: green;
+  background-color: var(--nav-bg-color);
   align-items: center;
 }
 
 .nav-left {
   width: 60%;
-  align-self: center;
   text-align: center;
-  background-color: aquamarine;
+  background-color: var(--nav-left-bg-color);
+  align-self: center;
 }
 
 .nav-right {
   width: 30%;
   margin-left: auto;
-  background-color: blue;
+  background-color: var(--nav-right-bg-color);
   align-items: center;
 }
 
@@ -29,40 +45,42 @@ nav ul {
   display: flex;
   list-style: none;
   justify-content: space-around;
-  color: aliceblue;
+  color: var(--text-color);
 }
 
 a {
   text-decoration: none;
-  color: aliceblue;
+  color: var(--text-color);
 }
 
+/* Images */
 img {
   width: 100%;
   height: 100%;
 }
 
+/* Hero Section */
 .hero {
   margin-top: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgb(7, 40, 29);
+  background-color: var(--hero-bg-color);
 }
 
 .hero-right {
   width: 50%;
-  background-color: rgb(7, 40, 29);
   text-align: center;
+  background-color: var(--hero-bg-color);
 }
 
 .hero-bottom {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-top: 20px;
   gap: 40px;
+  margin-top: 20px;
 }
 
 .hero-bottom img {
@@ -71,13 +89,14 @@ img {
   align-self: center;
 }
 
+/* Button */
 .btn {
   cursor: pointer;
   width: 100px;
   height: 100px;
-  background-color: rgb(7, 40, 29);
-  color: rgb(0, 0, 0);
-  border: 2px solid rgb(45, 104, 156);
+  background-color: var(--btn-bg-color);
+  color: black;
+  border: 2px solid var(--btn-border-color);
   border-radius: 8px;
 }
 
@@ -86,28 +105,30 @@ img {
   transform: translateY(-0.25em);
 }
 
+/* Next Launches */
 .next-launches {
-  text-align: center;
   width: 100%;
-  background-color: rgb(157, 214, 195);
+  text-align: center;
+  background-color: var(--next-launches-bg-color);
 }
 
 .next-launches h1 {
   padding: 32px;
 }
 
+/* Launch Cards */
 .launch-cards {
   padding: 32px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  border: 20px solid rgb(7, 40, 29);
+  border: 20px solid var(--card-border-color);
 }
 
 .card {
-  border: 20px solid rgb(7, 40, 29);
-  padding: 16px;
-  margin: 16px;
   width: 300px;
   height: 300px;
+  padding: 16px;
+  margin: 16px;
+  border: 20px solid var(--card-border-color);
 }
