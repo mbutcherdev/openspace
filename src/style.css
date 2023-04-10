@@ -68,6 +68,7 @@ img {
 .hero-bottom img {
   width: 80%;
   height: 60%;
+  align-self: center;
 }
 
 .btn {
