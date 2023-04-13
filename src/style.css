@@ -1,19 +1,40 @@
 /* Variables */
 :root {
-  --main-bg-color: blueviolet;
-  --nav-bg-color: green;
-  --nav-left-bg-color: aquamarine;
-  --nav-right-bg-color: blue;
+  --main-bg-color: rgb(126, 126, 126, 50%);
+  --nav-bg-color: rgba(16 18 27 / 40%);
+  --nav-left-bg-color: rgba(16 18 27 / 40%);
+  --nav-right-bg-color: rgba(16 18 27 / 40%);
   --text-color: aliceblue;
-  --hero-bg-color: rgb(7, 40, 29);
-  --btn-bg-color: rgb(7, 40, 29);
+  --hero-bg-color: rgba(16 18 27 / 40%);
+  --btn-bg-color: rgba(16 18 27 / 40%);
   --btn-border-color: rgb(45, 104, 156);
-  --next-launches-bg-color: rgb(157, 214, 195);
-  --card-border-color: rgb(7, 40, 29);
+  --next-launches-bg-color: rgba(16 18 27 / 40%);
+  --card-border-color: rgba(16 18 27 / 40%);
 }
 
 /* Body */
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+@media (max-width: 750px) {
+  #background-video {
+    display: none;
+  }
+  body {
+    background: url("/src/backgrounds/space-small.png") no-repeat;
+    background-size: cover;
+  }
+}
 body {
+  color: var(--text-color);
   width: 80%;
   margin: 0 auto;
   background-color: var(--main-bg-color);
@@ -21,23 +42,22 @@ body {
 
 /* Navigation */
 nav {
+  background-color: var(--main-bg-color);
   display: flex;
   width: 100%;
-  background-color: var(--nav-bg-color);
   align-items: center;
+  padding-bottom: 20px;
 }
 
 .nav-left {
   width: 60%;
   text-align: center;
-  background-color: var(--nav-left-bg-color);
   align-self: center;
 }
 
 .nav-right {
   width: 30%;
   margin-left: auto;
-  background-color: var(--nav-right-bg-color);
   align-items: center;
 }
 
@@ -45,7 +65,6 @@ nav ul {
   display: flex;
   list-style: none;
   justify-content: space-around;
-  color: var(--text-color);
 }
 
 a {
@@ -61,18 +80,17 @@ img {
 
 /* Hero Section */
 .hero {
-  margin-top: 20px;
+  background-color: var(--main-bg-color);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: var(--hero-bg-color);
+  padding-bottom: 50px;
 }
 
 .hero-right {
   width: 50%;
   text-align: center;
-  background-color: var(--hero-bg-color);
 }
 
 .hero-bottom {
@@ -81,6 +99,7 @@ img {
   justify-content: space-around;
   gap: 40px;
   margin-top: 20px;
+  padding-bottom: 50px;
 }
 
 .hero-bottom img {
@@ -107,13 +126,15 @@ img {
 
 /* Next Launches */
 .next-launches {
+  padding-top: 10px;
+  background-color: var(--main-bg-color);
   width: 100%;
   text-align: center;
-  background-color: var(--next-launches-bg-color);
 }
 
 .next-launches h1 {
-  padding: 32px;
+  margin-top: -20px;
+  padding-bottom: 32px;
 }
 
 /* Launch Cards */
