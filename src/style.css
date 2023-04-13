@@ -177,13 +177,14 @@ img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 80vh;
-  padding-top: 20px;
+
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .planets-title {
-  position: absolute;
-  top: 80px;
+  text-align: center;
+  padding-bottom: 50px;
 }
 
 /* Carousel */
@@ -204,7 +205,7 @@ img {
   border-radius: 8px;
   padding: 10px;
   cursor: pointer;
-  z-index: 2;
+  z-index: 10;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -242,6 +243,10 @@ img {
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
 }
+.planet-slide.active {
+  opacity: 1;
+  position: static;
+}
 
 .planet-img {
   display: flex;
@@ -265,12 +270,6 @@ img {
   width: auto;
   object-fit: fill;
   object-position: center;
-}
-
-/* First slide visible */
-.carousel-content .planet-slide:first-child {
-  position: static;
-  opacity: 1;
 }
 
 /* Footer */
