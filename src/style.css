@@ -1,10 +1,10 @@
 /* Variables */
 :root {
-  --main-bg-color: rgb(126, 126, 126, 50%);
+  --main-bg-color: rgba(44, 44, 44, 0.8);
   --nav-bg-color: rgba(16 18 27 / 40%);
   --nav-left-bg-color: rgba(16 18 27 / 40%);
   --nav-right-bg-color: rgba(16 18 27 / 40%);
-  --text-color: aliceblue;
+  --text-color: rgb(253, 253, 253);
   --hero-bg-color: rgba(16 18 27 / 40%);
   --btn-bg-color: rgba(16 18 27 / 40%);
   --btn-border-color: rgb(45, 104, 156);
@@ -35,6 +35,7 @@
 }
 body {
   color: var(--text-color);
+  font-family: Georgia, serif;
   width: 80%;
   margin: 0 auto;
   background-color: var(--main-bg-color);
@@ -51,7 +52,8 @@ nav {
 
 .nav-left {
   width: 60%;
-  text-align: center;
+  padding-left: 20%;
+  text-align: left;
   align-self: center;
 }
 
@@ -83,6 +85,7 @@ img {
   background-color: var(--main-bg-color);
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   padding-bottom: 50px;
@@ -90,6 +93,9 @@ img {
 
 .hero-right {
   width: 50%;
+  text-align: left;
+}
+.hero-main {
   text-align: center;
 }
 
@@ -106,6 +112,14 @@ img {
   width: 80%;
   height: 60%;
   align-self: center;
+}
+.button_list {
+  width: 55%;
+  text-align: left;
+}
+.button_list ul {
+  text-decoration: none;
+  list-style: none;
 }
 
 /* Button */
