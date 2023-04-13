@@ -269,3 +269,16 @@ img {
   position: static;
   opacity: 1;
 }
+
+/* Footer */
+footer {
+  background-color: var(--main-bg-color);
+  text-align: center;
+
+  padding: 20px;
+}
+.footerimg {
+  height: auto;
+  width: 20px;
+  padding: 10px;
+}
