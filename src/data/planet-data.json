@@ -4,62 +4,63 @@
     "image": "src/images/planets/mercury.png",
     "orbitLocation": "0.39 AU",
     "orbitDuration": "88 days",
-    "moons": 0
+    "moons": 0,
+    "description": "This is a test"
   },
   {
     "name": "Venus",
     "image": "src/images/planets/venus.png",
     "orbitLocation": "0.72 AU",
     "orbitDuration": "225 days",
-    "moons": 0
+    "moons": 0,
+    "description": "This is a test too"
   },
   {
     "name": "Earth",
     "image": "src/images/planets/earth.png",
     "orbitLocation": "1 AU",
     "orbitDuration": "365 days",
-    "moons": 1
+    "moons": 1,
+    "description": "This is a test too"
   },
   {
     "name": "Mars",
     "image": "src/images/planets/mars.png",
     "orbitLocation": "1.52 AU",
     "orbitDuration": "687 days",
-    "moons": 2
+    "moons": 2,
+    "description": "This is a test too"
   },
   {
     "name": "Jupiter",
     "image": "src/images/planets/jupiter.png",
     "orbitLocation": "5.20 AU",
     "orbitDuration": "12 years",
-    "moons": 79
+    "moons": 79,
+    "description": "This is a test too"
   },
   {
     "name": "Saturn",
     "image": "src/images/planets/saturn.png",
     "orbitLocation": "9.58 AU",
     "orbitDuration": "29 years",
-    "moons": 82
+    "moons": 82,
+    "description": "This is a test too"
   },
   {
     "name": "Uranus",
     "image": "src/images/planets/uranus.png",
     "orbitLocation": "19.18 AU",
     "orbitDuration": "84 years",
-    "moons": 27
+    "moons": 27,
+    "description": "This is a test too"
   },
   {
     "name": "Neptune",
     "image": "src/images/planets/neptune.png",
     "orbitLocation": "30.07 AU",
     "orbitDuration": "165 years",
-    "moons": 14
-  },
-  {
-    "name": "Pluto",
-    "image": "src/images/planets/pluto.png",
-    "orbitLocation": "39.48 AU",
-    "orbitDuration": "248 years",
-    "moons": 5
+    "moons": 14,
+    "description": "This is a test too"
   }
 ]

@@ -1,13 +1,15 @@
 document.addEventListener("DOMContentLoaded", function () {
+  let planetsData = []; // Add this line to store the planets array in a higher scope
+
   fetch("src/data/planet-data.json")
     .then((response) => response.json())
     .then((planets) => {
+      planetsData = planets; // Store the planets array
       const carouselContent = document.querySelector(".carousel-content");
 
       planets.forEach((planet) => {
         const planetSlide = document.createElement("div");
         planetSlide.classList.add("planet-slide");
-
         const planetImg = document.createElement("div");
         planetImg.classList.add("planet-img");
         const img = document.createElement("img");
@@ -38,11 +40,11 @@ document.addEventListener("DOMContentLoaded", function () {
       });
 
       initCarousel();
+      updateDescription(planetsData[0].description);
     })
     .catch((error) => {
       console.error("Error fetching planet data:", error);
     });
-
   function initCarousel() {
     const slides = document.querySelectorAll(".planet-slide");
     const prevBtn = document.querySelector(".carousel-btn.prev-btn");
@@ -63,6 +65,14 @@ document.addEventListener("DOMContentLoaded", function () {
       slides[currentSlide].classList.remove("active");
       currentSlide = (n + slides.length) % slides.length;
       slides[currentSlide].classList.add("active");
+      // Update the description
+      updateDescription(planetsData[currentSlide].description); // Use planetsData instead
     }
   }
 });
+
+// New function to dynamically update the planets description
+function updateDescription(description) {
+  const descriptionText = document.querySelector(".description-text");
+  descriptionText.textContent = description;
+}
