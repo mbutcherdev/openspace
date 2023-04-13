@@ -49,7 +49,10 @@ nav {
   align-items: center;
   padding-bottom: 20px;
 }
-
+.nav-git {
+  height: auto;
+  width: 20px;
+}
 .nav-left {
   width: 60%;
   padding-left: 20%;
