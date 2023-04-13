@@ -278,6 +278,21 @@ img {
   object-fit: fill;
   object-position: center;
 }
+.planet_title {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.planet-description {
+  padding: 20px;
+}
+.physical_characteristics,
+.orbit_and_rotation,
+.exploration,
+.future_exploration {
+  padding: 20px;
+  text-align: left;
+}
 
 /* Footer */
 footer {

@@ -5,23 +5,39 @@
     "orbitLocation": "0.39 AU",
     "orbitDuration": "88 days",
     "moons": 0,
-    "description": "This is a test"
+    "description": {
+      "Physical Characteristics": "Mercury is the smallest and innermost planet in our solar system, named after the Roman god of communication and commerce. It orbits the Sun at an average distance of approximately 57.9 million kilometers (35.98 million miles). The planet's surface is characterized by extensive plains, deep craters, and vast cliffs, similar in appearance to Earth's Moon. Mercury experiences extreme temperature fluctuations due to its lack of atmosphere and proximity to the Sun. Its core is composed mainly of iron, creating a magnetic field approximately 1% the strength of Earth's.",
+      "Orbit and Rotation": "Mercury's orbit is highly elliptical, taking 88 Earth days to complete, and its slow rotation results in a 3:2 resonance between the planet's orbital and rotational periods. Due to this orbital resonance, a single day-night cycle on Mercury lasts 176 Earth days.",
+      "Exploration": "Mercury's harsh environment and proximity to the Sun have made it a challenging target for exploration. However, two NASA spacecraft have visited the planet, providing valuable information about its composition, geology, and environment. In 1974-75, Mariner 10 conducted three flybys of Mercury, mapping around 45% of the planet's surface. More recently, the MESSENGER (MErcury Surface, Space ENvironment, GEochemistry, and Ranging) probe orbited Mercury from 2011 to 2015, mapping the entire surface and providing detailed information about the planet's composition, magnetic field, and exosphere.",
+      "Future Exploration": "The European Space Agency (ESA) and Japan Aerospace Exploration Agency (JAXA) jointly launched the BepiColombo mission in October 2018, aiming to reach Mercury in late 2025. BepiColombo consists of two orbiters: ESA's Mercury Planetary Orbiter (MPO) and JAXA's Mercury Magnetospheric Orbiter (MMO). The mission aims to provide new insights into Mercury's geological processes, interior structure, magnetic field, and the origin and evolution of the solar system."
+    }
   },
+
   {
     "name": "Venus",
     "image": "src/images/planets/venus.png",
     "orbitLocation": "0.72 AU",
     "orbitDuration": "225 days",
     "moons": 0,
-    "description": "This is a test too"
+    "description": {
+      "Physical Characteristics": "Venus is the second planet from the Sun and is Earth's closest neighbor in the solar system. It is a terrestrial planet similar in size, mass, and composition to Earth, often referred to as Earth's 'sister planet.' Venus has a thick atmosphere consisting mainly of carbon dioxide, with clouds of sulfuric acid droplets, which cause a strong greenhouse effect, trapping heat and making it the hottest planet in the solar system, with surface temperatures reaching up to 467°C (872°F). The surface is primarily composed of volcanic plains, mountains, and large highland areas.",
+      "Orbit and Rotation": "Venus orbits the Sun at an average distance of 108.2 million kilometers (67.24 million miles) and takes approximately 225 Earth days to complete one orbit. The planet has a slow and retrograde rotation, meaning it rotates from east to west, opposite to most other planets, including Earth. One rotation takes about 243 Earth days, making a day on Venus longer than its year. The axial tilt of Venus is minimal, at just 2.64 degrees, resulting in a lack of significant seasonal variation.",
+      "Exploration": "Venus has been the subject of numerous space missions due to its proximity to Earth and its similarity in size and composition. The first successful mission to Venus was NASA's Mariner 2 flyby in 1962, which provided valuable data about the planet's atmosphere and surface temperature. In the following years, multiple spacecraft from the Soviet Union's Venera series made landings on Venus, sending back the first images of the planet's surface. The Magellan orbiter, launched by NASA in 1989, conducted extensive radar mapping of Venus's surface, providing detailed images of the planet's geology.",
+      "Future Exploration": "Future missions to Venus include the European Space Agency's EnVision orbiter, set to launch in the early 2030s, which will study the planet's geology, atmosphere, and search for volcanic activity. In addition, NASA has selected two Venus missions, DAVINCI+ and VERITAS, scheduled for launch between 2028 and 2030. DAVINCI+ will focus on understanding the planet's atmosphere and its formation, while VERITAS aims to create a high-resolution 3D map of Venus's surface to determine its geological history and understand why it evolved differently from Earth."
+    }
   },
   {
     "name": "Earth",
     "image": "src/images/planets/earth.png",
     "orbitLocation": "1 AU",
-    "orbitDuration": "365 days",
+    "orbitDuration": "365.25 days",
     "moons": 1,
-    "description": "This is a test too"
+    "description": {
+      "Physical Characteristics": "Earth is the third planet from the Sun and the only known planet to support life. It is a terrestrial planet with a diverse climate and a wide range of environments, from arid deserts to lush rainforests and frozen polar regions. Earth's atmosphere is composed primarily of nitrogen (78%) and oxygen (21%), with trace amounts of other gases, such as carbon dioxide and water vapor. The planet's surface is approximately 71% water, mostly in the form of oceans, and 29% landmass, consisting of continents and islands.",
+      "Orbit and Rotation": "Earth orbits the Sun at an average distance of 149.6 million kilometers (93 million miles) and takes approximately 365.25 days to complete one orbit, defining the length of a year. Earth's rotation period is approximately 24 hours, defining the length of a day. The planet's axial tilt is about 23.5 degrees, which, combined with its elliptical orbit, results in seasonal variations in climate and daylight hours across different latitudes.",
+      "Exploration": "As the home planet of human civilization, Earth has been extensively studied through a combination of ground-based observations, telescopes, and satellite missions. The first artificial satellite, Sputnik 1, was launched by the Soviet Union in 1957, marking the beginning of the space age. Since then, numerous satellites and space missions have been launched to study Earth's atmosphere, geology, oceans, ice, and ecosystems. These missions have contributed to our understanding of Earth's climate, natural resources, and the impacts of human activities on the environment.",
+      "Future Exploration": "Future Earth-focused missions and satellite programs will continue to monitor and study the planet's climate, resources, and natural systems. These missions will contribute to our understanding of human-induced climate change, natural hazards, and the sustainability of Earth's resources. Additionally, international collaborations and partnerships between space agencies, such as the International Space Station (ISS), will continue to advance our knowledge of Earth and its environment, as well as develop technologies and strategies for long-duration human space exploration."
+    }
   },
   {
     "name": "Mars",
@@ -29,38 +45,63 @@
     "orbitLocation": "1.52 AU",
     "orbitDuration": "687 days",
     "moons": 2,
-    "description": "This is a test too"
+    "description": {
+      "Physical Characteristics": "Mars, often referred to as the Red Planet, is the fourth planet from the Sun and Earth's outer neighbor in the solar system. It is a terrestrial planet known for its reddish appearance caused by iron oxide (rust) on its surface. Mars has the largest volcano in the solar system, Olympus Mons, and the longest canyon, Valles Marineris. The planet's atmosphere is thin and primarily composed of carbon dioxide (95.3%), with traces of nitrogen, argon, and other gases. Mars has a diverse landscape, including polar ice caps, vast plains, and large sand dunes.",
+      "Orbit and Rotation": "Mars orbits the Sun at an average distance of 227.9 million kilometers (141.6 million miles) and takes approximately 687 Earth days to complete one orbit. The planet's rotation period is similar to Earth's, at approximately 24.6 hours, which defines the length of a Martian day, or 'sol.' Mars has an axial tilt of about 25.2 degrees, causing it to experience seasonal variations in climate and weather, similar to Earth.",
+      "Exploration": "Mars has been a primary target for robotic exploration due to its similarities to Earth and its potential to have once harbored life. Numerous missions, including orbiters, landers, and rovers, have been sent to Mars by various space agencies, such as NASA, ESA, and Roscosmos. Notable missions include NASA's Mars Exploration Rovers Spirit and Opportunity, the Mars Science Laboratory rover Curiosity, and the Mars 2020 mission, which includes the Perseverance rover and Ingenuity helicopter. These missions have provided valuable data on Mars's geology, climate, and the presence of water in its past.",
+      "Future Exploration": "Future Mars missions will continue to search for signs of past life and investigate the planet's potential to support human missions. NASA's Mars Sample Return mission, planned for the 2020s, will bring back samples collected by the Perseverance rover for further study on Earth. In addition, several space agencies, including NASA, ESA, and SpaceX, are developing plans for human missions to Mars, with the goal of establishing a sustainable human presence on the Red Planet in the coming decades."
+    }
   },
   {
     "name": "Jupiter",
     "image": "src/images/planets/jupiter.png",
     "orbitLocation": "5.20 AU",
-    "orbitDuration": "12 years",
+    "orbitDuration": "4,333 days",
     "moons": 79,
-    "description": "This is a test too"
+    "description": {
+      "Physical Characteristics": "Jupiter is the fifth planet from the Sun and the largest planet in the solar system. It is a gas giant primarily composed of hydrogen (90%) and helium (10%), with a dense core of metals and rock. Jupiter's atmosphere is known for its colorful bands and the Great Red Spot, a massive storm that has been raging for centuries. The planet has a strong magnetic field and numerous faint rings, composed mainly of dust particles.",
+      "Orbit and Rotation": "Jupiter orbits the Sun at an average distance of 778.3 million kilometers (483.8 million miles) and takes approximately 11.9 Earth years to complete one orbit. The planet has a rapid rotation, with a period of about 9.9 hours, making it the fastest rotating planet in the solar system. This rapid rotation causes Jupiter to have an oblate shape, with its equatorial diameter being larger than its polar diameter.",
+      "Exploration": "Several spacecraft have visited Jupiter, including flybys by Pioneer 10, Pioneer 11, Voyager 1, and Voyager 2, which provided early images and data on the planet's atmosphere, magnetic field, and moons. NASA's Galileo mission, launched in 1989, was the first to orbit Jupiter and conducted a comprehensive study of the planet and its major moons. More recently, NASA's Juno mission, which arrived at Jupiter in 2016, has been studying the planet's atmosphere, magnetic field, and internal structure in greater detail.",
+      "Future Exploration": "Future missions to Jupiter will likely focus on exploring its diverse and intriguing moons, particularly the four largest, known as the Galilean moons: Io, Europa, Ganymede, and Callisto. NASA's Europa Clipper mission, set to launch in the 2020s, will study the icy moon Europa and its potential to harbor life in its subsurface ocean. The European Space Agency's JUICE (JUpiter ICy moons Explorer) mission, also planned for the 2020s, will study Jupiter's magnetosphere and investigate the potential habitability of Europa, Ganymede, and Callisto."
+    }
   },
   {
     "name": "Saturn",
     "image": "src/images/planets/saturn.png",
     "orbitLocation": "9.58 AU",
-    "orbitDuration": "29 years",
-    "moons": 82,
-    "description": "This is a test too"
+    "orbitDuration": "10,759 days",
+    "moons": 83,
+    "description": {
+      "Physical Characteristics": "Saturn is the sixth planet from the Sun and the second-largest planet in the solar system, after Jupiter. It is a gas giant composed mainly of hydrogen and helium, with a small solid core. Saturn is best known for its stunning and complex ring system, composed of ice particles, dust, and rocky debris. The planet's atmosphere exhibits banded cloud patterns similar to Jupiter's, but with a more muted coloration.",
+      "Orbit and Rotation": "Saturn orbits the Sun at an average distance of 1.4 billion kilometers (886 million miles) and takes approximately 29.5 Earth years to complete one orbit. The planet's rotation period is about 10.7 hours, causing it to have an oblate shape similar to Jupiter. Saturn's axial tilt is about 26.7 degrees, which results in seasonal variations on the planet and its moons.",
+      "Exploration": "Saturn has been visited by several spacecraft, including flybys by Pioneer 11, Voyager 1, and Voyager 2, which provided early images and data on the planet's atmosphere, rings, and moons. The most extensive study of Saturn was conducted by NASA's Cassini mission, which orbited the planet from 2004 to 2017. Cassini revealed many new details about Saturn's atmosphere, rings, and moons, and even landed the Huygens probe on the surface of the largest moon, Titan.",
+      "Future Exploration": "Future missions to Saturn will likely focus on further studying its moons, particularly Titan and Enceladus, which are considered to have potential for hosting life. The NASA Dragonfly mission, set to launch in the 2020s, will send a rotorcraft lander to explore the surface of Titan and study its diverse geology, atmosphere, and potential for prebiotic chemistry. Additionally, other mission concepts have been proposed to investigate Enceladus and its subsurface ocean, which is believed to harbor the necessary conditions for life."
+    }
   },
   {
     "name": "Uranus",
     "image": "src/images/planets/uranus.png",
     "orbitLocation": "19.18 AU",
-    "orbitDuration": "84 years",
+    "orbitDuration": "30,687 days",
     "moons": 27,
-    "description": "This is a test too"
+    "description": {
+      "Physical Characteristics": "Uranus is the seventh planet from the Sun and the third-largest by diameter. It is an ice giant, composed mainly of hydrogen and helium, with a significant portion of ices such as water, ammonia, and methane. Uranus has a distinct bluish-green color due to the presence of methane in its atmosphere, which absorbs red light and reflects blue and green light. The planet has a complex system of faint rings composed of dark particles, and a relatively featureless atmosphere, lacking the distinct cloud bands seen on Jupiter and Saturn.",
+      "Orbit and Rotation": "Uranus orbits the Sun at an average distance of 2.9 billion kilometers (1.8 billion miles) and takes approximately 84 Earth years to complete one orbit. The planet's rotation period is about 17.2 hours. Uranus has an unusual axial tilt of approximately 98 degrees, causing it to spin nearly on its side, with its poles pointing almost directly at the Sun. This extreme tilt results in extreme seasonal variations and unique weather patterns.",
+      "Exploration": "Uranus has been visited by only one spacecraft, Voyager 2, which conducted a flyby in 1986. The encounter provided valuable data on the planet's atmosphere, rings, and moons, but many aspects of Uranus remain poorly understood due to the limited exploration. Voyager 2 discovered ten new moons during its flyby, bringing the total number of known Uranian moons to 27.",
+      "Future Exploration": "Several mission concepts have been proposed for future exploration of Uranus, including orbiters and probes to study the planet's atmosphere, internal structure, and magnetosphere. These missions would also likely include detailed studies of the diverse and icy moons of Uranus. However, as of now, no mission to Uranus has been officially approved or scheduled by any space agency."
+    }
   },
   {
     "name": "Neptune",
     "image": "src/images/planets/neptune.png",
     "orbitLocation": "30.07 AU",
-    "orbitDuration": "165 years",
+    "orbitDuration": "60,190 days",
     "moons": 14,
-    "description": "This is a test too"
+    "description": {
+      "Physical Characteristics": "Neptune is the eighth and farthest known planet from the Sun in the solar system. It is the fourth-largest by diameter and is an ice giant like Uranus. The planet is primarily composed of hydrogen and helium, with traces of methane, ammonia, and water. Neptune has a deep blue color due to the presence of methane in its atmosphere, which absorbs red light and reflects blue light. The planet has a dynamic atmosphere with strong winds, large storms, and cloud bands similar to those on Jupiter and Saturn.",
+      "Orbit and Rotation": "Neptune orbits the Sun at an average distance of 4.5 billion kilometers (2.8 billion miles) and takes approximately 165 Earth years to complete one orbit. The planet's rotation period is about 16.1 hours. Neptune has an axial tilt of approximately 28.3 degrees, which causes seasonal variations on the planet and its moons.",
+      "Exploration": "Neptune has been visited by only one spacecraft, Voyager 2, which conducted a flyby in 1989. During its encounter, Voyager 2 provided valuable data on the planet's atmosphere, rings, and moons, including the discovery of Neptune's largest moon, Triton. The spacecraft also observed the Great Dark Spot, a massive storm similar to Jupiter's Great Red Spot, although the storm has since dissipated.",
+      "Future Exploration": "Future missions to Neptune have been proposed, including orbiters and probes that would study the planet's atmosphere, internal structure, and magnetosphere. These missions would also likely explore Neptune's diverse moons, particularly Triton, which is thought to have been captured from the Kuiper Belt and has active geysers on its surface. As of now, no mission to Neptune has been officially approved or scheduled by any space agency."
+    }
   }
 ]
