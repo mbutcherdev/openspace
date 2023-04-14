@@ -21,13 +21,14 @@ document.addEventListener("DOMContentLoaded", function () {
         planetInfo.classList.add("planet-info");
 
         const name = document.createElement("h2");
-        name.textContent = `Name: ${planet.name}`;
+        name.textContent = `Planet Name: ${planet.name}`;
         const orbitLocation = document.createElement("p");
-        orbitLocation.textContent = `Orbit location: ${planet.orbitLocation}`;
+        orbitLocation.textContent = `Distance from the Sun: ${planet.orbitLocation}`;
         const orbitDuration = document.createElement("p");
-        orbitDuration.textContent = `Duration of orbit: ${planet.orbitDuration}`;
+        const orbitDuration2 = document.createElement("p");
+        orbitDuration.textContent = `Duration of orbit (in Earth days): ${planet.orbitDuration}`;
         const moons = document.createElement("p");
-        moons.textContent = `Moons: ${planet.moons}`;
+        moons.textContent = `Number of Moons: ${planet.moons}`;
 
         planetInfo.appendChild(name);
         planetInfo.appendChild(orbitLocation);
