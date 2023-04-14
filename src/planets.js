@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   let planetsData = [];
 
-  fetch("src/data/planet-data.json")
+  fetch("/src/data/planet-data.json")
     .then((response) => response.json())
     .then((planets) => {
       planetsData = planets;
