@@ -1,6 +1,6 @@
 /* Variables */
 :root {
-  --main-bg-color: #96fffb09;
+  --main-bg-color: #9c9c9c4e;
   --nav-bg-color: #96fffb65;
   --text-color: rgb(253, 253, 253);
   --hero-bg-color: rgba(16 18 27 / 40%);
@@ -12,8 +12,7 @@
 
 /* Body */
 #background-video {
-  filter: blur(3px);
-  -webkit-filter: blur(3px);
+  filter: blur(3px) brightness(300%);
   width: 100vw;
   height: 100vh;
   object-fit: cover;
@@ -133,12 +132,13 @@ img {
 /* Button */
 .btn {
   background-color: #96fffb65;
+  border: 2px solid var(--btn-border-color);
   cursor: pointer;
   width: 100px;
   height: 100px;
 
   color: black;
-  border: 2px solid var(--btn-border-color);
+
   border-radius: 8px;
 }
 
@@ -206,21 +206,21 @@ img {
 /* Updated carousel buttons */
 .carousel-btn {
   font-size: 1.5rem;
-  color: rgb(0, 0, 0);
-  background-color: rgb(7, 40, 29);
-  border: 2px solid rgb(45, 104, 156);
+  background-color: #96fffb65;
+  border: 2px solid var(--btn-border-color);
   border-radius: 8px;
   padding: 10px;
   cursor: pointer;
   z-index: 10;
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translateY(10%);
   transition: box-shadow 0.3s, transform 0.3s;
 }
 
 .carousel-btn:hover {
   box-shadow: 0 0.5em 0.5em -0.4em orange;
+  background-color: var(--btn-border-color);
   transform: translateY(-0.25em);
 }
 
