@@ -1,24 +1,83 @@
-# Temporary ReadME
+<!-- PROJECT SHIELDS -->
 
-# Open|Space
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![GNU License][license-shield]][license-url]
 
-Designed to be an open-source hub of information about the space industry.  
-Initial project to be done in vanilla HTMl/CSS/JS, potentially upgraded to Django/Flask/Python or other frameworks as I see fit.  
-Ignore all colours and main "themes" until complete, the stark contrasting and super-sized borders allows me to see easily where each component will sit.  
-On-going project.
+# Open|Space, a portfolio project by Matthew Butcher
+
+## About
+
+---
+
+A vanilla HTML / CSS / JavaScript project to practice my abilities and learn new skills.  
+The project aims to be a central location for information about our solar system, and the space industry as a whole.  
+Currently in development and likely to change multiple times before completion.
+
+## Previews
+
+---
+
+Home Page:
+
+<p align="center">
+    <img src="/previews/homepage.png" alt="Open|Space Homepage">
+</p>
+
+Planets Page:
+
+<p align="center">
+    <img src="/previews/planets.png" alt="Open|Space Planets Page">
+</p>
+Responsive Planets Page:
+
+<p align="center">
+<img src="/previews/planets_responsive.png" alt="Open|Space Responsive Planets Design">
+</p>
+
+---
+
+## Technologies
+
+- [![HTML][html.com]][html-url]
+- [![CSS][css.com]][css-url]
+- [![JavaScript][javascript.com]][javascript-url]
+
+## Features
+
+- Responsive design
+- Carousel for planets
+- Pulls planet data from JSON
+- Uses DOM manipulation to create planet cards and descriptions
 
 ## To Do:
 
-- Complete homepage, involve an API to gain next 5 rocket launch information
-- Complete planets page. Likely re-design the entire page, present the information in an easier format
-- Add rockets page. This will be a longer-term information dump. Will include widely-known rockets from history and current use.
-- Add satellite tracker. Developing a page to enable tracking of satellites based on public API's, to achieve near real-time positioning
-- Add rover information. Slightly influenced by "Goodnight Oppy", this will contain all rovers currently on other planets!
+- Rockets
+  - Create JSON file to pull rocket data in a similar manner to planets
+  - Create carousel for rockets
+  - Pull upcoming launches from a public API
+- Satellites
+  - Create JSON file to pull satellite data in a similar manner to planets
+  - Create carousel for satellites
+  - Implement a "live tracker" for current orbital satellites
+- Rovers
+  - Create JSON file to pull rover data in a similar manner to planets
+  - Create carousel for rovers
+  - Implement a position for current rovers
 
 ## Challenges
 
-Once I get a solid idea for how I want the carousels/data dump pages to look, I want to streamline adding new information.  
-Everything is currently hard coded, I'd like to change that to a database back-end with a form to input new data so it's a 1-stop shop for adding and collecting information.
+- Responsiveness
+  - The project is mainly designed as a desktop application, with certain elements being hidden on mobile devices.
+  - The carousel for the planets is a challenge to make responsive, due to how I have currently implemented scrolling.
+  - Getting the layout is an ongoing development as I learn more about CSS, media queries and responsive design.
+- Carousel
+  - The carousel was having issues due to initially using vh units, it caused it to "jump" between each card
+  - The buttons were displaying differently per browser, so I included a normalize css file to fix this
+  - Buttons jumped too far when animated due to an incorrect translateY, this is now fixed and is much smoother
+
+---
 
 # Images/Icon Attribution
 
@@ -32,3 +91,23 @@ https://iconduck.com/emojis/36084/globe-showing-asia-australia
 ### Planets Page:
 
 https://www.nasa.gov/
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[contributors-shield]: https://img.shields.io/github/contributors/mbutcherdev/openspace?style=for-the-badge
+[contributors-url]: https://github.com/mbutcherdev/openspace/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/mbutcherdev/openspace?style=for-the-badge
+[forks-url]: https://github.com/mbutcherdev/openspace/network/members
+[stars-shield]: https://img.shields.io/github/stars/mbutcherdev/openspace?style=for-the-badge
+[stars-url]: https://github.com/mbutcherdev/openspace/stargazers
+[issues-shield]: https://img.shields.io/github/issues/mbutcherdev/openspace?style=for-the-badge
+[issues-url]: https://github.com/mbutcherdev/openspace/issues
+[license-shield]: https://img.shields.io/github/license/mbutcherdev/openspace?style=for-the-badge
+[license-url]: https://github.com/mbutcherdev/openspace/blob/master/LICENSE.txt
+[css.com]: https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
+[css-url]: https://developer.mozilla.org/en-US/docs/Web/CSS
+[html.com]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
+[html-url]: https://developer.mozilla.org/en-US/docs/Web/HTML
+[javascript.com]: https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
+[javascript-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
