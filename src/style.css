@@ -248,19 +248,10 @@ p {
 /* Carousel */
 .carousel {
   display: flex;
-  overflow-x: hidden;
-  overflow-y: hidden;
+  overflow: hidden;
   width: 90%;
   height: 100%;
   position: relative;
-}
-
-.carousel-content {
-  display: flex;
-  width: 100%;
-  height: 100%;
-  position: relative;
-  transition: transform 0.3s ease-in-out;
 }
 
 /* Updated carousel buttons */
@@ -292,6 +283,14 @@ p {
   right: 20px;
 }
 
+/* Carousel */
+.carousel-content {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
 /* Updated planet-slide */
 .planet-slide {
   display: flex;
@@ -302,7 +301,6 @@ p {
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
 }
-
 .planet-slide.active {
   opacity: 1;
   position: static;
@@ -322,6 +320,25 @@ p {
   justify-content: center;
 }
 
+@media (max-width: 768px) {
+  .planet-img,
+  .planet-info {
+    width: 100%;
+  }
+
+  .planet-slide {
+    flex-direction: column;
+  }
+
+  .touch-device {
+    display: none;
+  }
+
+  .planet-slide img {
+    max-width: 150px;
+  }
+}
+
 /* Updated planet-slide img */
 .planet-slide img {
   max-height: 300px;
@@ -329,44 +346,6 @@ p {
   object-fit: fill;
   object-position: center;
 }
-
-/* For touch devices */
-
-@media (max-width: 768px) {
-  .carousel {
-    overflow-x: scroll;
-    -webkit-overflow-scrolling: touch;
-  }
-
-  .carousel-content {
-    position: static;
-    flex-direction: row;
-    gap: 20px;
-  }
-
-  .planet-slide {
-    position: static;
-    opacity: 1;
-  }
-
-  .carousel-btn {
-    display: none;
-  }
-  .planet-description {
-    display: none;
-  }
-
-  .planet-img,
-  .planet-info.touch-device {
-    width: 100%;
-  }
-
-  .planet-info.touch-device {
-    padding-top: 20px;
-    text-align: center;
-  }
-}
-
 .planet_title {
   text-align: center;
   padding-bottom: 20px;
