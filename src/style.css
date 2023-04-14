@@ -12,8 +12,8 @@
 
 /* Body */
 #background-video {
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
   width: 100vw;
   height: 100vh;
   object-fit: cover;
