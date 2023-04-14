@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/norm.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=JetBrains+Mono" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="src/style.css" />
 
     <title>HOME | OpenSpace</title>
@@ -15,14 +17,13 @@
     <video id="background-video" autoplay loop muted poster="/src/backgrounds/Sky_night_space_background_high.mp4">
       <source src="/src/backgrounds/Sky_night_space_background_high.mp4" type="video/mp4" />
     </video>
-    <nav>
+    <nav class="overlay">
       <div class="nav-left">
         <h1>Open Space</h1>
       </div>
       <div class="nav-right">
         <ul>
           <li><a href="index.html">Home</a></li>
-
           <li>
             <a href="https://github.com/mbutcherdev/openspace" target="_blank" rel="noopener noreferrer"
               ><img
@@ -36,12 +37,14 @@
       </div>
     </nav>
     <!-- Hero section, description of the site. -->
-    <section class="hero">
+    <section class="hero overlay-content">
       <div>
-        <h1>HOME | OpenSpace</h1>
+        <h1>Welcome to OpenSpace</h1>
       </div>
+      <hr class="wide" />
       <div class="hero-right">
-        <h3 class="hero-main">Welcome | What is OpenSpace?</h3>
+        <h3 class="hero-main">Open Space, the open source collection of space information</h3>
+        <hr class="wide" />
         <br />
         <p>
           OpenSpace is designed to be an open-source resource of information about space exploration and it's history.
@@ -70,31 +73,7 @@
         <br />
         <br />
       </div>
-      <div class="button_list">
-        <ul>
-          <li>
-            PLANETS | <br />
-            We have 8 planets in our system (sorry Pluto!), explore them in depth
-          </li>
-          <br />
-          <li>
-            ROCKETS | <br />
-            The engineering marvels that took the human race to the moon and beyond! Explore previous, current and
-            in-development space faring vehicles
-          </li>
-          <br />
-          <li>
-            SAT-TRAK |<br />
-            Ever wanted to know where the ISS is? Or maybe you want to track a satellite that you've seen in the sky?
-            Gaze upon our interactive map and see where the satellites are in real time
-          </li>
-          <br />
-          <li>
-            ROVERS |<br />
-            Opportunity? Curiosity? Spirit? Explore the history of the Mars rovers and see what they've discovered
-          </li>
-        </ul>
-      </div>
+      <hr class="wide" />
       <div class="hero-bottom">
         <button
           class="btn"
@@ -134,7 +113,7 @@
         </button>
       </div>
     </section>
-    <footer>
+    <footer class="overlay">
       OpenSpace | A portfolio website project by Matthew Butcher | &copy 2023<br />
       License/Image Credits: Please see the README.md file in the GitHub repository<br />
       <hr />

@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/norm.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=JetBrains+Mono" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="src/style.css" />
 
     <title>PLANETS | OpenSpace</title>
@@ -15,7 +17,7 @@
     <video id="background-video" autoplay loop muted poster="/src/backgrounds/Sky_night_space_background_high.mp4">
       <source src="/src/backgrounds/Sky_night_space_background_high.mp4" type="video/mp4" />
     </video>
-    <nav>
+    <nav class="overlay">
       <div class="nav-left">
         <h1>Open Space</h1>
       </div>
@@ -34,9 +36,10 @@
         </ul>
       </div>
     </nav>
-    <div class="planets">
+    <div class="planets overlay-content">
       <div class="planets-title">
         <h1>Explore the galaxy</h1>
+        <hr class="wide" />
         <!-- Order: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune.. Pluto(?) -->
       </div>
 
@@ -64,7 +67,7 @@
         <p class="future_exploration"></p>
       </div>
     </div>
-    <footer>
+    <footer class="overlay">
       OpenSpace | A portfolio website project by Matthew Butcher | &copy 2023<br />
       License/Image Credits: Please see the README.md file in the GitHub repository<br />
       <hr />
