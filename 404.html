@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/norm.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/src/style.css" />
+
+    <title>PLANETS | OpenSpace</title>
+  </head>
+
+  <body>
+    <video id="background-video" autoplay loop muted poster="/src/backgrounds/Sky_night_space_background_high.mp4">
+      <source src="/src/backgrounds/Sky_night_space_background_high.mp4" type="video/mp4" />
+    </video>
+    <nav class="overlay">
+      <div class="nav-left">
+        <a href="/"><h1>Open Space</h1></a>
+      </div>
+      <div class="nav-right">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li>
+            <a href="https://github.com/mbutcherdev/openspace" target="_blank" rel="noopener noreferrer"
+              ><img
+                title="OpenSpace GitHub Repository"
+                alt="GitHub logo to repository"
+                class="nav-git"
+                src="/src/backgrounds/github-mark-white.svg"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="overlay">
+      <div class="not-found">
+        <h1>404</h1>
+        <h2>Page not found</h2>
+        <p>
+          The page you are looking for does not exist. Please check the URL and try again.
+        </p>
+        <p><a href="/">Rescue Mission!</a></p>
+      </div>
+    <footer class="overlay">
+      OpenSpace | A portfolio website project by Matthew Butcher | &copy 2023<br />
+      License/Image Credits: Please see the README.md file in the GitHub repository<br />
+      <hr />
+      <a href="https://github.com/mbutcherdev/openspace" target="_blank" rel="noopener noreferrer"
+        >Repo: <img class="footerimg" src="/src/backgrounds/github-mark-white.svg" /></a
+      >&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="https://github.com/mbutcherdev/" target="_blank" rel="noopener noreferrer"
+        >Portfolio: <img class="footerimg" src="/src/backgrounds/github-mark-white.svg"
+      /></a>
+    </footer>
+    <script src="/src/planets.js"></script>
+  </body>
+</html>
