@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/norm.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=JetBrains+Mono" />
     <link rel="stylesheet" href="src/style.css" />
 
     <title>PLANETS | OpenSpace</title>
@@ -34,9 +36,10 @@
     </nav>
     <div class="planets">
       <div class="planets-title">
-        <h1>Explore our galaxy</h1>
+        <h1>Explore the galaxy</h1>
         <!-- Order: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune.. Pluto(?) -->
       </div>
+
       <div class="carousel">
         <button class="carousel-btn prev-btn">&#10094;</button>
         <div class="carousel-content">
@@ -45,13 +48,18 @@
         <button class="carousel-btn next-btn">&#10095;</button>
       </div>
       <div class="planet-description">
-        <h2 class="planet_title">Planet description</h2>
+        <hr />
+        <h2>Get more in depth with: <span class="name"></span></h2>
+        <hr />
         <h3>Physical Characteristics:</h3>
         <p class="physical_characteristics"></p>
+        <hr />
         <h3>Orbit and Rotation:</h3>
         <p class="orbit_and_rotation"></p>
+        <hr />
         <h3>Exploration:</h3>
         <p class="exploration"></p>
+        <hr />
         <h3>Future Exploration:</h3>
         <p class="future_exploration"></p>
       </div>
