@@ -19,6 +19,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
         const planetInfo = document.createElement("div");
         planetInfo.classList.add("planet-info");
+        // Add touch-device class to planetInfo if screen width is less than 768px
+        if (window.innerWidth <= 768) {
+          planetInfo.classList.add("touch-device");
+        }
 
         const name = document.createElement("h2");
         name.textContent = `Planet Name: ${planet.name}`;
